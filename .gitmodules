@@ -1,3 +1,3 @@
 [submodule "selenium_addon"]
 	path = selenium_addon
-	url = https://github.com/nraimo1/selenium_addon
+	url = https://github.com/leaskovski/selenium_addon
