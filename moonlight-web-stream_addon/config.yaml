@@ -1,6 +1,6 @@
-name: "Moonlight Web Stream Addon"
+name: "Moonlight Web"
 description: "A local moonlight web stream addon"
-version: "0.0.4"
+version: "0.0.5"
 slug: "moonlight-web-stream_addon"
 init: false
 #host_network: true
@@ -10,7 +10,4 @@ arch:
 panel_admin: false
 panel_icon: mdi:lan
 ingress: true
-ports:
-  8080/tcp: 4922
-ports_description:
-  8080/tcp: web interface
+ingress_port: 8080
