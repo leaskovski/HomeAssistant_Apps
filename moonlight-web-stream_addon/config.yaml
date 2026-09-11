@@ -11,3 +11,4 @@ panel_admin: false
 panel_icon: mdi:lan
 ingress: true
 ingress_port: 8080
+ingress_stream: true
