@@ -1,6 +1,6 @@
 name: "Moonlight Web"
 description: "A local moonlight web stream addon"
-version: "0.0.5"
+version: "0.0.6"
 slug: "moonlight-web-stream_addon"
 init: false
 #host_network: true
@@ -8,7 +8,7 @@ arch:
   - aarch64
   - amd64
 panel_admin: false
-panel_icon: mdi:lan
+panel_icon: mdi:gamepad-variant-outline
 ingress: true
 ingress_port: 8080
 ingress_stream: true
