@@ -1,6 +1,9 @@
 FROM ubuntu:24.04
 
 ENV LOG_LEVEL=TRACE
+ENV FORWARDED_HEADER=x-remote-user-name
+ENV PATH_PREFIX=/app/baad617e_moonlight-web-stream_addon
+
 ENV MOONLIGHT_WEB_PATH=/moonlight-web
 
 ARG GID=999
