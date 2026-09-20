@@ -2,7 +2,7 @@ FROM ubuntu:24.04
 
 ENV LOG_LEVEL=TRACE
 ENV FORWARDED_HEADER=x-remote-user-name
-ENV PATH_PREFIX=/hassio_ingress/hl_0zGxXrZqbfpZvXYmfBK_5t7IsQdVjDcKfT1lg9uk/
+ENV PATH_PREFIX=/api/hassio_ingress/moonlight-web-stream_addon/
 
 ENV MOONLIGHT_WEB_PATH=/moonlight-web
 
