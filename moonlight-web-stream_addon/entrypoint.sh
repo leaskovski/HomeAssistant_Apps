@@ -5,4 +5,4 @@ set -e
 mkdir -p ${MOONLIGHT_WEB_PATH}/server
 
 # Run main application
-exec ${MOONLIGHT_WEB_PATH}/web-server "$@"
+exec ${MOONLIGHT_WEB_PATH}/web-server --path-prefix "" "$@"
